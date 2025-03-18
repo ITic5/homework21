@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <title>Document</title>
+    </head>
+    <body>
+
+    <a href="index.html">Homepage</a>
+
+    <form id="todo-form">
+        <input type="text" id="task-name" placeholder="Task Name">
+        <button id="create-task-btn" type="button">Create task</button>
+    </form>
+    <div id="remove-task" class="hidden">
+        <input type="text" id="task-number" placeholder="Enter task number">
+        <button id="remove-task-btn" type="button">Remove task</button>
+<!--        <button id="remove-all-tasks-btn" type="button">Remove all</button>-->
+    </div>
+
+    <ol id="tasks-list">
+
+    </ol>
+
+    <script src="todoapp.js"></script>
+    </body>
+</html>
